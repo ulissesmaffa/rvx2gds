@@ -4,6 +4,7 @@ Physical implementation of the open-source **RVX** 32-bit RISC-V core using the
 commercial **Cadence** toolchain (Genus + Innovus) on the open-source
 **SkyWater sky130** PDK.
 
+
 ## Highlights
 
 - **Commercial Cadence flow** — logic synthesis in Genus and place & route in Innovus,
