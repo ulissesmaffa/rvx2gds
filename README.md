@@ -18,18 +18,18 @@ commercial **Cadence** toolchain (Genus + Innovus) on the open-source
 
 rvx2gds/
 ├── rtl/                            # RVX RTL sources (Verilog / SystemVerilog)
-├── asic-flow/                      # ASIC implementation flow
-│   └── cadence_sky130/
-│       ├── constr/                 # constraints
-│       │   ├── mmmc.tcl            # multi-mode multi-corner setup
-│       │   └── rvx.sdc             # timing constraints
-│       ├── scripts/
-│       │   ├── genus/              # logic synthesis (setup, syn, main)
-│       │   └── innovus/            # physical synthesis (setup → power → place → cts → route → verify)
-│       ├── pnr/
-│       │   └── inputs/             # assembled PnR inputs (see pnr/inputs/README.md)
-│       └── syn/                    # synthesis output dirs (git-ignored; see syn/README.md)
-│       └── Makefile            
+└── asic-flow/                      # ASIC implementation flow
+    └── cadence_sky130/
+        ├── constr/                 # constraints
+        │   ├── mmmc.tcl            # multi-mode multi-corner setup
+        │   └── rvx.sdc             # timing constraints
+        ├── scripts/
+        │   ├── genus/              # logic synthesis (setup, syn, main)
+        │   └── innovus/            # physical synthesis (setup → power → place → cts → route → verify)
+        ├── pnr/
+        │   └── inputs/             # assembled PnR inputs (see pnr/inputs/README.md)
+        ├── syn/                    # synthesis output dirs (git-ignored; see syn/README.md)
+        └── Makefile                # flow orchestration
 
 ## Requirements
 
