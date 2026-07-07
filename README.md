@@ -17,6 +17,7 @@ commercial **Cadence** toolchain (Genus + Innovus) on the open-source
 
 ## Repository layout
 
+```
 rvx2gds/
 ├── rtl/                            # RVX RTL sources (Verilog / SystemVerilog)
 └── asic-flow/                      # ASIC implementation flow
@@ -31,6 +32,7 @@ rvx2gds/
         │   └── inputs/             # assembled PnR inputs (see pnr/inputs/README.md)
         ├── syn/                    # synthesis output dirs (git-ignored; see syn/README.md)
         └── Makefile                # flow orchestration
+```
 
 ## Requirements
 
